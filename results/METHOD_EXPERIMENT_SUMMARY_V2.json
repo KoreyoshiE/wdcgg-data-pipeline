@@ -1,0 +1,57 @@
+{
+  "representative_datasets": 10,
+  "stations": 5,
+  "gases": 2,
+  "regions": 5,
+  "anomaly_methods": [
+    "seasonal_mad",
+    "rolling_seasonal_mad",
+    "hampel_7day",
+    "iqr_hour"
+  ],
+  "synthetic_rows": 600,
+  "gap_methods": [
+    "linear",
+    "pchip",
+    "local_level_kalman",
+    "seasonal_median",
+    "seasonal_residual_linear"
+  ],
+  "gap_rows": 455,
+  "fixed_seed": 20260815,
+  "best_anomaly_parameters": {
+    "seasonal_mad": {
+      "k": 3.0,
+      "mean_f1": 0.1456141924634264
+    },
+    "rolling_seasonal_mad": {
+      "k": 3.0,
+      "mean_f1": 0.1929177156921829
+    },
+    "hampel_7day": {
+      "k": 3.0,
+      "mean_f1": 0.21229935064438613
+    },
+    "iqr_hour": {
+      "k": 3.0,
+      "mean_f1": 0.14460607072076642
+    }
+  },
+  "reconstruction_policy": "Primary observed-only. Bounded one-hour linear is an interpretable downstream sensitivity, not a universal best method; values separately labelled.",
+  "one_hour_method_median_mae_by_gas": {
+    "CH4": {
+      "linear": 0.5304999999999609,
+      "local_level_kalman": 0.3747242156482571,
+      "pchip": 0.45701078185197724,
+      "seasonal_median": 7.610000000000014,
+      "seasonal_residual_linear": 0.35762499999998454
+    },
+    "CO2": {
+      "linear": 0.0550000000000068,
+      "local_level_kalman": 0.1208419853660984,
+      "pchip": 0.0436502311832214,
+      "seasonal_median": 1.1720000000000257,
+      "seasonal_residual_linear": 0.0449999999999022
+    }
+  }
+}

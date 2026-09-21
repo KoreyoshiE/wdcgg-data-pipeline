@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript and this repository."
+title: "WDCGG Data Pipeline"
+type: software
+authors:
+  - family-names: Che
+    given-names: Han
+  - family-names: Zheng
+    given-names: Hanyue
+  - family-names: Han
+    given-names: Lei
+version: 1.0.0
+date-released: 2026-09-21

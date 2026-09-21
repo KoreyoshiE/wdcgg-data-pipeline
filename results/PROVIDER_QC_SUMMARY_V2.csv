@@ -1,0 +1,30 @@
+dataset_key,wdcgg_id,station_name,gas,provider_valid_count,value_count,record_count,provider_valid_fraction,provider_invalid_or_unknown_count,qc_role
+RUN1042_CH4,RUN1042,La Réunion,CH4,86625,86625,86625,1.0,0,Primary validity filter; statistical flags are secondary review only
+MNM2029_CH4,MNM2029,Minamitorishima,CH4,256862,256927,283392,0.9997470098510473,65,Primary validity filter; statistical flags are secondary review only
+TLL3005_CH4,TLL3005,El Tololo,CH4,79737,79737,113952,1.0,0,Primary validity filter; statistical flags are secondary review only
+BRW4003_CH4,BRW4003,Barrow (AK),CH4,304389,304389,333652,1.0,0,Primary validity filter; statistical flags are secondary review only
+MLO5002_CH4,MLO5002,Mauna Loa (HI),CH4,307838,307838,330907,1.0,0,Primary validity filter; statistical flags are secondary review only
+CMN6042_CH4,CMN6042,Monte Cimone,CH4,84142,84142,96432,1.0,0,Primary validity filter; statistical flags are secondary review only
+JFJ6036_CH4,JFJ6036,Jungfraujoch,CH4,155278,155278,175320,1.0,0,Primary validity filter; statistical flags are secondary review only
+SNB6032_CH4,SNB6032,SONNBLICK Observatory,CH4,101637,101637,113976,1.0,0,Primary validity filter; statistical flags are secondary review only
+ZSF6031_CH4,ZSF6031,Zugspitze-Schneefernerhaus,CH4,174331,174331,195024,1.0,0,Primary validity filter; statistical flags are secondary review only
+SPO7011_CO2,SPO7011,South Pole,CO2,385395,385395,429335,1.0,0,Primary validity filter; statistical flags are secondary review only
+RUN1042_CO2,RUN1042,La Réunion,CO2,86601,86601,86601,1.0,0,Primary validity filter; statistical flags are secondary review only
+MNM2029_CO2,MNM2029,Minamitorishima,CO2,271657,271810,292152,0.999437106802546,153,Primary validity filter; statistical flags are secondary review only
+TLL3005_CO2,TLL3005,El Tololo,CO2,79736,79736,113952,1.0,0,Primary validity filter; statistical flags are secondary review only
+BRW4003_CO2,BRW4003,Barrow (AK),CO2,409318,409318,450936,1.0,0,Primary validity filter; statistical flags are secondary review only
+MLO5002_CO2,MLO5002,Mauna Loa (HI),CO2,404041,404041,444192,1.0,0,Primary validity filter; statistical flags are secondary review only
+SMO5009_CO2,SMO5009,Samoa (Cape Matatula),CO2,352045,352045,427392,1.0,0,Primary validity filter; statistical flags are secondary review only
+CMN6042_CO2,CMN6042,Monte Cimone,CO2,346617,346617,410592,1.0,0,Primary validity filter; statistical flags are secondary review only
+JFJ6036_CO2,JFJ6036,Jungfraujoch,CO2,118657,118657,131496,1.0,0,Primary validity filter; statistical flags are secondary review only
+SNB6032_CO2,SNB6032,SONNBLICK Observatory,CO2,160279,160279,227928,1.0,0,Primary validity filter; statistical flags are secondary review only
+ZSF6031_CO2,ZSF6031,Zugspitze-Schneefernerhaus,CO2,174462,174462,195024,1.0,0,Primary validity filter; statistical flags are secondary review only
+HAT2031_CH4,HAT2031,Hateruma Island,CH4,254421,254421,264739,1.0,0,Primary validity filter; statistical flags are secondary review only
+INU4176_CH4,INU4176,Inuvik,CH4,100968,100968,100968,1.0,0,Primary validity filter; statistical flags are secondary review only
+RYO2012_CH4,RYO2012,Ryori,CH4,262710,273750,309696,0.9596712328767124,11040,Primary validity filter; statistical flags are secondary review only
+YON2028_CH4,YON2028,Yonagunijima,CH4,209808,209858,230088,0.9997617436552336,50,Primary validity filter; statistical flags are secondary review only
+HAT2031_CO2,HAT2031,Hateruma Island,CO2,252060,252060,294351,1.0,0,Primary validity filter; statistical flags are secondary review only
+INU4176_CO2,INU4176,Inuvik,CO2,99737,99737,99737,1.0,0,Primary validity filter; statistical flags are secondary review only
+MGK5058_CO2,MGK5058,Maunga Kākaramea,CO2,61815,61815,61815,1.0,0,Primary validity filter; statistical flags are secondary review only
+RYO2012_CO2,RYO2012,Ryori,CO2,317061,318123,344760,0.9966616685998811,1062,Primary validity filter; statistical flags are secondary review only
+YON2028_CO2,YON2028,Yonagunijima,CO2,222284,222330,238848,0.999793100346332,46,Primary validity filter; statistical flags are secondary review only

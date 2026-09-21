@@ -1,0 +1,79 @@
+{
+  "version": "global_cohort_v2",
+  "target_period": "2015-01-01/2024-12-31 UTC",
+  "primary_common_period": "2015-2024",
+  "monthly_rule": {
+    "provider_qc": "QCflag 1/2 retained",
+    "within_month_fraction": 0.75,
+    "core_station_fraction": 0.75,
+    "extended_station_fraction": 0.6
+  },
+  "threshold_grid": {
+    "within_month": [
+      0.7,
+      0.75,
+      0.8,
+      0.9
+    ],
+    "station_fraction": [
+      0.6,
+      0.7,
+      0.75,
+      0.8,
+      0.9
+    ]
+  },
+  "anomaly": {
+    "role": "secondary review flag",
+    "seed": 20260815,
+    "stations": [
+      "BRW4003",
+      "HAT2031",
+      "JFJ6036",
+      "RUN1042",
+      "TLL3005"
+    ],
+    "methods": [
+      "seasonal_mad",
+      "rolling_seasonal_mad",
+      "hampel_7day",
+      "iqr_hour"
+    ],
+    "k": [
+      3,
+      4,
+      5
+    ],
+    "event_prevalence": 0.01
+  },
+  "gaps": {
+    "seed": 20260815,
+    "length_hours": [
+      1,
+      3,
+      6,
+      12,
+      24,
+      48,
+      72
+    ],
+    "methods": [
+      "linear",
+      "pchip",
+      "local_level_kalman",
+      "seasonal_median",
+      "seasonal_residual_linear"
+    ]
+  },
+  "trend": {
+    "primary": "Theil-Sen on monthly provider-qualified observations",
+    "sensitivity": [
+      "OLS",
+      "seasonal Mann-Kendall",
+      "lag-1 autocorrelation",
+      "longest vs 2015-2024"
+    ],
+    "prewhitening": "not automatically applied"
+  },
+  "reconstruction_policy": "observed-only primary; bounded one-hour linear downstream sensitivity for interpretability, not a universal best method; reconstructed values separately labelled"
+}

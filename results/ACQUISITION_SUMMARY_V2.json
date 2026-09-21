@@ -1,0 +1,10 @@
+{
+  "targeted_new_products": 14,
+  "new_successes": 14,
+  "new_failures": [],
+  "v1_products_reused_with_hashes": 24,
+  "all_harmonised_products": 38,
+  "records_processed": 7415318,
+  "provider_valid_records": 6562387,
+  "new_parser_changes": 0
+}

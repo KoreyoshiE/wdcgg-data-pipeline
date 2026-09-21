@@ -1,0 +1,18 @@
+# SYNTHETIC TEST FIXTURE — NOT REAL OBSERVATION DATA
+# dataset_id: wdcgg.synthetic.tst.co2.monthly
+# dataset_version: test-v1
+# station_code: TST
+# station_name: Synthetic Test Station
+# latitude: 10.0
+# longitude: 20.0
+# altitude: 100.0
+# species: CO2
+# sampling_type: insitu
+# measurement_method: synthetic nondispersive infrared
+# start_date: 2019-01-01
+# end_date: 2019-03-31
+# temporal_resolution: monthly
+timestamp_utc,value,unit,wdcgg_qc,original_qc
+2019-01-01T00:00:00Z,400.0,ppm,1,A
+2019-02-01T00:00:00Z,401.0,ppm,1,A
+2019-03-01T00:00:00Z,402.0,ppm,2,B

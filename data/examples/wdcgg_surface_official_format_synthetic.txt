@@ -1,0 +1,28 @@
+# header_lines : 26
+# Data_Set_Name : co2_tst0001_surface-insitu_1_9999-9999_hourly
+# Data_Set_Version : 9999-0001-1001-01-01-9999_test-v1
+# Data_Set_DOI : 10.0000/WDCGG_TEST
+# site_name : Synthetic Test Station
+# site_country/territory : Synthetic
+# site_wdcgg_id : TST0001
+# site_latitude : 10.0
+# site_longitude : 20.0
+# site_elevation : 100
+# dataset_parameter : co2
+# dataset_project : surface-insitu
+# dataset_selection_tag : hourly
+# dataset_time_zone : UTC
+# dataset_lst2utc : 0
+# dataset_start_date : 2019-01-01T00:00:00+00:00
+# dataset_end_date : 2019-01-01T01:00:00+00:00
+# instrument_total_listed : 1
+# instrument_1_measurement_method_name : NDIR
+# value:units : ppm
+# ORG_QCflag:comment : 7: background condition
+# QCflag:comment : 1 Valid background; 2 Valid; 3 Invalid
+#
+# VARIABLE ORDER
+#
+# site_wdcgg_id st_year st_month st_day st_hour st_minute st_second value ORG_QCflag QCflag
+TST0001 2019 01 01 00 00 00 410.0 7 1
+TST0001 2019 01 01 01 00 00 411.0 1 2
