@@ -1,7 +1,7 @@
 # Preserve byte-identical frozen scientific tables across checkout platforms.
-results/frozen/*.csv -text
+results/frozen/*.csv -text whitespace=cr-at-eol
 results/frozen/*.json text eol=lf
-configs/anomaly_validation.json -text
-configs/completeness_sensitivity.json -text
-configs/gap_validation.json -text
-configs/trend_analysis.json -text
+configs/anomaly_validation.json -text whitespace=cr-at-eol
+configs/completeness_sensitivity.json -text whitespace=cr-at-eol
+configs/gap_validation.json -text whitespace=cr-at-eol
+configs/trend_analysis.json -text whitespace=cr-at-eol
