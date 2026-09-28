@@ -2,6 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software, please cite the associated manuscript and this repository."
 title: "WDCGG Data Pipeline"
 type: software
+repository-code: "https://github.com/KoreyoshiE/wdcgg-data-pipeline"
+license: MIT
 authors:
   - family-names: Che
     given-names: Han
@@ -9,5 +11,4 @@ authors:
     given-names: Hanyue
   - family-names: Han
     given-names: Lei
-version: 1.0.0
-date-released: 2026-09-21
+version: 1.1.0
