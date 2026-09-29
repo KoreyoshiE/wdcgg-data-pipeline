@@ -1,3 +1,3 @@
-"""Recovered deterministic WDCGG Global Cohort v2 implementation."""
+"""WDCGG atmospheric-observation research pipeline."""
 
-__version__ = "2.0.0"
+__version__ = "1.1.0"

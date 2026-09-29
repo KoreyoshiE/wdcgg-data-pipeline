@@ -1,0 +1,56 @@
+{
+  "status": "frozen_peer_review_revision",
+  "scope": "selected non-random WDCGG cohorts; not a global atmospheric estimate",
+  "catalogue_station_gas_products": 362,
+  "public_hourly_products": 137,
+  "acquired_official_datasets": 38,
+  "acquired_physical_stations": 23,
+  "core": {
+    "within_month_qualification_fraction": 0.75,
+    "station_qualified_month_fraction": 0.75,
+    "station_gas_products": 26,
+    "physical_stations": 14
+  },
+  "extended": {
+    "within_month_qualification_fraction": 0.75,
+    "station_qualified_month_fraction": 0.60,
+    "station_gas_products": 29,
+    "physical_stations": 16
+  },
+  "anomaly_validation": {
+    "outer_physical_station_folds": 5,
+    "repetitions_per_station_gas_event": 20,
+    "realizations": 1000,
+    "positive_event_evaluable_realizations": 940,
+    "structural_empty_domain_controls": 60,
+    "all_configuration_evaluations": 12000,
+    "heldout_macro_f1": 0.2173096244300512,
+    "heldout_macro_f1_descriptive_station_cluster_interval": [0.13605897715417928, 0.3060675267676395],
+    "role": "synthetic-event validation and review flags; not real-anomaly ground truth"
+  },
+  "gap_validation": {
+    "historical_anchors": 91,
+    "repeated_nonoverlapping_placements": 1345,
+    "total_base_gap_cases": 1436,
+    "complete_five_method_evaluations": 7180,
+    "role": "method comparison only; no automatic global imputation"
+  },
+  "primary_core_seasonal_sen": {
+    "co2_ppm_per_year": 2.5112935838718662,
+    "co2_descriptive_cohort_interval": [2.4633465046116161, 2.5355049060198325],
+    "ch4_ppb_per_year": 11.31456774698783,
+    "ch4_descriptive_cohort_interval": [10.930267035140394, 11.770916245578643],
+    "primary_block_length_months": 12,
+    "role": "selected Core cohort summary; observed contributor-valid data"
+  },
+  "source_files": [
+    "completeness_sensitivity.csv",
+    "anomaly_heldout_summary.csv",
+    "anomaly_operational_candidate.csv",
+    "anomaly_realdata_review_flags.csv",
+    "gap_method_summary.csv",
+    "gap_paired_station_contrasts.csv",
+    "gap_block_summary.csv",
+    "trend_core_summary.csv"
+  ]
+}

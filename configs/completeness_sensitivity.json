@@ -1,0 +1,40 @@
+{
+  "revision_id": "REV-01",
+  "grid": {
+    "within_month": [
+      0.7,
+      0.75,
+      0.8,
+      0.9
+    ],
+    "station_fraction": [
+      0.6,
+      0.7,
+      0.75,
+      0.8,
+      0.9
+    ]
+  },
+  "primary": [
+    0.75,
+    0.75
+  ],
+  "extended": [
+    0.75,
+    0.6
+  ],
+  "target_start": "2015-01-01",
+  "target_end_exclusive": "2025-01-01",
+  "months": 120,
+  "absolute_tolerance": 1e-10,
+  "relative_tolerance": 1e-10,
+  "manual_examples": [
+    "TLL3005_CO2",
+    "MNM2029_CO2"
+  ],
+  "environmental_definition": "frozen slope and amplitude; observed qualified monthly means; gases separate",
+  "observation_count_policy": "preserve all-record provider count under explicit legacy name; add qualified target-month count",
+  "mixed_unit_legacy_metrics": "retained in diff only; corrected pooled value undefined",
+  "randomness": "none",
+  "code_sha256": "c9722424aa2eb9b6f558c2ac4520155a3bb9b5243b3c1cf49272227e205d650f"
+}

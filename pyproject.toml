@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wdcgg-data-pipeline"
-version = "1.0.0"
+version = "1.1.0"
 description = "Reproducible acquisition, quality control and analysis of long-term WDCGG CO2 and CH4 observations."
 readme = "README.md"
 requires-python = ">=3.11"
@@ -26,3 +26,4 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+markers = ["requires_wdcgg: full regression requiring official archives not present in CI"]
